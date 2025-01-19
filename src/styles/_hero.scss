@@ -1,0 +1,44 @@
+
+
+.hero {
+    padding-top: 64px;
+    padding-bottom: 100px;
+    background-image: url(../images/hero_festa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .container {
+        position: relative;
+        text-align: center;
+    }
+
+    &__text {
+        margin: 64px auto;
+        font-size: 40px;
+        line-height: 56px;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    &__bolo {
+        margin: 0 auto;
+        font-size: 80px;
+        display: block;
+    }
+
+    @media(max-width: 640px) {
+        padding: 40px 0;
+
+        &__bogo {
+            font-size: 40px;
+        }
+
+        &__text {
+            font-size: 22px;
+            line-height: 24px;
+            margin: 24px 0;
+        }
+    }
+
+}
