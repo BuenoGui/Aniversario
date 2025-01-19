@@ -5,7 +5,7 @@
   },
   "name": "projeto31---contador-aniversario",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.html",
   "dependencies": {
     "ansi-styles": "^4.3.0",
     "argparse": "^2.0.1",
